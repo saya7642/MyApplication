@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="6"
+    android:columnCount="4"
+    android:id="@+id/gl"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="0"
+        android:textSize="150sp"
+        android:layout_columnSpan="4"/>
+
+    <Button
+        android:id="@+id/ht"
+        android:text="回退"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/qk"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="清空"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:text="+"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="1"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="2"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="3"
+        android:layout_columnWeight="1"/>
+
+
+
+
+</GridLayout>
